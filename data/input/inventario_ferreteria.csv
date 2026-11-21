@@ -1,0 +1,63 @@
+codigo,producto,categoria,marca,unidad,stock,stock_minimo,costo_unitario,precio_venta,proveedor,fecha_ultimo_ingreso
+HM-001,Martillo de uña 16 oz,Herramientas manuales,Truper,unidad,12,5,6.80,9.37,Distribuidora Andina S.A.,2026-09-05
+HM-002,"Destornillador plano 1/4""",Herramientas manuales,Stanley,unidad,94,25,2.10,2.93,Distribuidora Andina S.A.,2026-08-19
+HM-003,Destornillador estrella #2,Herramientas manuales,Stanley,unidad,2,5,2.10,2.80,Distribuidora Andina S.A.,2026-08-18
+HM-004,Juego de llaves combinadas 12 pzs,  herramientas MANUALES ,Truper,juego,18,5,24.50,31.60,Distribuidora Andina S.A.,2026-09-15
+HM-005,"Alicate universal 8""",Herramientas manuales,Truper,unidad,244,50,5.40,7.39,Distribuidora Andina S.A.,2026-09-23
+HM-006,Flexómetro 5 m,Herramientas manuales,Stanley,unidad,6,10,4.20,5.60,Distribuidora Andina S.A.,2026-08-03
+HM-007,"Serrucho 20""",Herramientas manuales,Truper,unidad,48,10,7.90,10.48,Distribuidora Andina S.A.,2026-10-26
+HM-008,"Nivel de aluminio 24""",Herramientas manuales,Pretul,unidad,63,15,6.30,7.93,Distribuidora Andina S.A.,2026-08-18
+HM-009,"Llave de tubo 14""",Herramientas manuales,Truper,unidad,135,25,11.20,14.66,Distribuidora Andina S.A.,2026-10-19
+HE-001,"Taladro percutor 1/2"" 650 W",Herramientas eléctricas,Bosch,unidad,0,2,58.00,74.73,Importadora Industrial del Pacífico,2026-09-25
+HE-002,"Amoladora angular 4 1/2"" 850 W",Herramientas eléctricas,DeWalt,unidad,3,2,62.50,81.74,Importadora Industrial del Pacífico,2026-11-09
+HE-003,Sierra caladora 500 W,Herramientas eléctricas,Black+Decker,unidad,2,3,45.00,60.33,Importadora Industrial del Pacífico,2026-09-22
+HE-004,Atornillador inalámbrico 12 V,Herramientas eléctricas,Bosch,unidad,24,5,71.00,92.54,Importadora Industrial del Pacífico,31/02/2026
+HE-005,"Broca para concreto 3/8""",Herramientas eléctricas,Bosch,unidad,27,10,2.60,3.63,Importadora Industrial del Pacífico,2026-09-22
+HE-006,"Disco de corte metal 4 1/2""",Herramientas eléctricas,DeWalt,unidad,108,50,1.15,1.51,Importadora Industrial del Pacífico,2026-08-26
+FI-001,"Clavo de acero 2""",Fijaciones,Ideal,libra,0,10,1.05,1.38,Ferrosur Cía. Ltda.,2026-10-07
+FI-002,"Clavo de acero 3""",Fijaciones,Ideal,libra,73,15,"1,05",1.45,Ferrosur Cía. Ltda.,2026-09-09
+FI-003,"Tornillo autorroscante 1"" (100 u)",Fijaciones,Fixser,caja,58,25,2.40,3.07,Ferrosur Cía. Ltda.,2026-11-19
+FI-004,"Taco fischer 1/4"" (100 u)",Fijaciones,Fischer,caja,18,10,1.90,2.53,Ferrosur Cía. Ltda.,2026-11-03
+FI-005,"Perno hexagonal 3/8"" x 2""",Fijaciones,Fixser,unidad,41,50,0.22,0.31,Ferrosur Cía. Ltda.,2026-09-26
+FI-005,"Perno hexagonal 3/8"" x 2""",Fijaciones,Fixser,unidad,41,50,0.22,0.31,Ferrosur Cía. Ltda.,2026-09-26
+FI-006,"Tuerca 3/8""",Fijaciones,Fixser,unidad,0,20,0.06,0.08,Ferrosur Cía. Ltda.,2026-11-20
+FI-007,"Arandela plana 3/8""",Fijaciones,Fixser,unidad,90,20,0.03,0.04,Ferrosur Cía. Ltda.,2026-08-22
+PL-001,"Tubo PVC presión 1/2"" x 6 m",Plomería,Plastigama,unidad,121,25,4.10,5.72,Hidrosistemas del Ecuador,2026-10-25
+PL-002,"Tubo PVC desagüe 4"" x 3 m",Plomería,Plastigama,unidad,10,5,9.80,13.51,Hidrosistemas del Ecuador,2026-11-01
+PL-003,"Codo PVC 1/2"" x 90°",Plomería,Plastigama,unidad,89,25,0.28,0.40,Hidrosistemas del Ecuador,2026-09-17
+PL-004,"Llave de paso 1/2""",Plomería,FV,unidad,265,50,5.60,8.02,Hidrosistemas del Ecuador,2026-09-05
+PL-005,Grifería para lavamanos,Plomería,FV,unidad,10,2,28.00,37.09,Hidrosistemas del Ecuador,2026-08-20
+PL-006,"Teflón 3/4""",Plomería,Genérico,rollo,3,5,0.35,0.46,Hidrosistemas del Ecuador,2026-10-08
+PL-007,Pegamento PVC 250 ml,Plomería,Plastigama,unidad,30,20,3.90,4.92,Hidrosistemas del Ecuador,2026-11-27
+EL-001,Cable sólido #12 AWG (rollo 100 m),Electricidad,Electrocables,rollo,9,5,48.00,60.66,Electro Mayorista S.A.,2026-11-18
+EL-002,Cable flexible #14 AWG (rollo 100 m),Electricidad,Electrocables,rollo,,5,39.50,50.68,Electro Mayorista S.A.,2026-09-18
+EL-003,Tomacorriente doble,Electricidad,Veto,unidad,10,25,1.80,2.52,Electro Mayorista S.A.,2026-11-22
+EL-004,Interruptor simple,Electricidad,Veto,unidad,72,15,1.40,1.93,Electro Mayorista S.A.,2026-08-08
+EL-005,Foco LED 9 W,Electricidad,Sylvania,unidad,0,10,1.60,2.07,Electro Mayorista S.A.,2026-09-19
+EL-006,Breaker 1 polo 20 A,Electricidad,Schneider,unidad,6,5,6.20,8.02,Electro Mayorista S.A.,2026-09-03
+EL-007,Cinta aislante 20 m,Electricidad,3M,rollo,181,50,0.95,1.36,Electro Mayorista S.A.,2026-09-09
+PI-001,Pintura látex blanca galón,Pinturas,Pintuco,galón,56,10,14.50,20.07,Colores y Acabados Cía. Ltda.,2026-11-08
+PI-002,Pintura esmalte negro galón,Pinturas,Cóndor,galón,74,50,19.80,27.86,Colores y Acabados Cía. Ltda.,2026-08-22
+PI-003,Pintura látex blanca caneca 5 gal,Pinturas,Pintuco,caneca,4,3,62.00,82.85,Colores y Acabados Cía. Ltda.,2026-08-02
+PI-004,"Brocha 3""",Pinturas,Wilson,unidad,16,10,1.70,2.26,Colores y Acabados Cía. Ltda.,2026-09-07
+PI-005,"Rodillo 9"" con bandeja",Pinturas,Wilson,juego,3,15,5.90,7.60,Colores y Acabados Cía. Ltda.,2026-10-15
+PI-006,Diluyente thinner galón,Pinturas,Cóndor,galón,22,5,7.40,9.62,Colores y Acabados Cía. Ltda.,2026-08-02
+PI-007,Lija de agua #120,Pinturas,Fandeli,pliego,31,20,0.38,0.52,Colores y Acabados Cía. Ltda.,2026-09-06
+CO-001,Cemento Portland 50 kg,Construcción,Holcim,saco,7,15,7.95,10.58,Materiales del Litoral S.A.,2026-08-06
+CO-002,Arena fina m3,Construcción,Genérico,m3,-4,15,18.00,23.86,Materiales del Litoral S.A.,2026-10-14
+CO-003,Bloque de pómez 10 cm,Construcción,Genérico,unidad,96,25,0.42,0.58,Materiales del Litoral S.A.,2026-11-05
+CO-004,Varilla corrugada 10 mm x 12 m,Construcción,Adelca,unidad,47,10,8.60,11.08,Materiales del Litoral S.A.,2026-08-24
+CO-005,Alambre de amarre (kg),Construcción,Adelca,kg,21,5,1.75,2.30,Materiales del Litoral S.A.,2026-09-02
+CO-006,Malla electrosoldada 2.4x6 m,Construcción,Ideal Alambrec,unidad,3,2,32.00,46.15,Materiales del Litoral S.A.,2026-08-22
+SE-001,Guantes de cuero,Seguridad,Steelpro,par,10,15,3.20,4.55,Protección Total Distribuciones,2026-09-19
+SE-002,Gafas de protección,Seguridad,3M,unidad,19,20,2.50,1.90,Protección Total Distribuciones,2026-10-09
+SE-003,Casco de seguridad,Seguridad,Steelpro,unidad,58,25,6.90,8.91,Protección Total Distribuciones,2026-11-05
+SE-004,Mascarilla N95,Seguridad,3M,unidad,58,10,1.20,1.66,Protección Total Distribuciones,2026-08-01
+SE-005,Botas punta de acero,Seguridad,Venus,par,7,5,29.00,38.91,Protección Total Distribuciones,2026-09-17
+CE-001,Candado 40 mm,Cerrajería,Yale,unidad,25,10,7.10,9.25,Ferrosur Cía. Ltda.,2026-10-10
+CE-002,Cerradura de pomo,Cerrajería,Kwikset,unidad,127,50,13.40,17.17,Ferrosur Cía. Ltda.,2026-08-22
+CE-003,"Bisagra 3"" (par)",Cerrajería,Genérico,par,16,10,1.30,1.84,Ferrosur Cía. Ltda.,2026-09-09
+JA-001,Manguera de jardín 15 m,Jardinería,Truper,unidad,9,5,12.60,16.04,Distribuidora Andina S.A.,2026-10-10
+JA-002,Pala cuadrada,Jardinería,Truper,unidad,112,25,9.50,13.02,Distribuidora Andina S.A.,2026-10-17
+JA-003,Carretilla 5 pies,Jardinería,Truper,unidad,1,2,48.00,64.69,Distribuidora Andina S.A.,2026-10-02
+,Producto sin código,Fijaciones,Genérico,unidad,10,5,0.50,0.70,Ferrosur Cía. Ltda.,2026-10-01
