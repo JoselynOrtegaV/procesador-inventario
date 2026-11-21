@@ -1,0 +1,29 @@
+# Control de versiones
+.git
+.gitignore
+
+# Entornos virtuales y cachés de Python
+.venv
+venv
+env
+__pycache__
+*.pyc
+.pytest_cache
+
+# Secretos y configuración local
+.env
+.env.*
+*.pem
+*.key
+
+# Datos (se montan como volúmenes, no se copian a la imagen)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Documentación y evidencias que no necesita la imagen
+README.md
+evidencias/
+.vscode
+.idea
