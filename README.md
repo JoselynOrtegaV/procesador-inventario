@@ -2,7 +2,7 @@
 
 Script de Python que **limpia el inventario de una ferretería**, calcula su **valor y márgenes**, y **detecta los productos que hay que reponer**. Está empaquetado en una imagen Docker publicada en Docker Hub.
 
-- Imagen: [`TU_USUARIO/procesador-inventario`](https://hub.docker.com/r/TU_USUARIO/procesador-inventario)
+- Imagen: [`josv0/procesador-inventario`](https://hub.docker.com/r/josv0/procesador-inventario)
 - Etiquetas: `1.0.0` (versión estable) y `latest`
 
 ## Datos de ejemplo
@@ -58,20 +58,20 @@ Solo **Docker** (20.10 o superior). No hace falta instalar Python.
 ## Opción A: ejecutar la imagen publicada
 
 ```bash
-git clone https://github.com/TU_USUARIO/procesador-inventario.git
+git clone https://github.com/JoselynOrtegaV/procesador-inventario.git
 cd procesador-inventario
 mkdir -p data/output
 
 docker run --rm \
   -v "$(pwd)/data/input:/data/input:ro" \
   -v "$(pwd)/data/output:/data/output" \
-  TU_USUARIO/procesador-inventario:1.0.0
+  josv0/procesador-inventario:1.0.0
 ```
 
 En **Windows PowerShell** escribe el comando en una sola línea y usa `${PWD}` en lugar de `$(pwd)`:
 
 ```powershell
-docker run --rm -v "${PWD}/data/input:/data/input:ro" -v "${PWD}/data/output:/data/output" TU_USUARIO/procesador-inventario:1.0.0
+docker run --rm -v "${PWD}/data/input:/data/input:ro" -v "${PWD}/data/output:/data/output" josv0/procesador-inventario:1.0.0
 ```
 
 ## Opción B: construir la imagen localmente
@@ -102,7 +102,7 @@ Ejemplo agrupando por proveedor:
 docker run --rm -e GROUP_BY=proveedor \
   -v "$(pwd)/data/input:/data/input:ro" \
   -v "$(pwd)/data/output:/data/output" \
-  TU_USUARIO/procesador-inventario:1.0.0
+  josv0/procesador-inventario:1.0.0
 ```
 
 La imagen no contiene secretos ni datos: todo se pasa al ejecutar el contenedor.
@@ -180,40 +180,32 @@ EL-005,Foco LED 9 W,Electricidad,Electro Mayorista S.A.,0,10,20,AGOTADO
 
 `generado_utc` cambia en cada ejecución; los demás valores deben coincidir.
 
-## Buenas prácticas aplicadas en el Dockerfile
-
-- Imagen base **slim con versión fija**: `python:3.12.8-slim-bookworm`.
-- `requirements.txt` se copia e instala **antes** del código, así la capa de dependencias queda en caché.
-- Dependencias con **versiones fijas**.
-- El contenedor corre con un **usuario sin privilegios** (`USER app`).
-- `CMD` en **forma exec**: `["python", "procesar.py"]`.
-- `.dockerignore` excluye `.git`, los entornos virtuales, `.env` y los datos.
 
 ## Publicación en Docker Hub
 
 ```bash
 docker login
-docker build -t TU_USUARIO/procesador-inventario:1.0.0 .
-docker tag TU_USUARIO/procesador-inventario:1.0.0 TU_USUARIO/procesador-inventario:latest
-docker push TU_USUARIO/procesador-inventario:1.0.0
-docker push TU_USUARIO/procesador-inventario:latest
+docker build -t josv0/procesador-inventario:1.0.0 .
+docker tag josv0/procesador-inventario:1.0.0 josv0/procesador-inventario:latest
+docker push josv0/procesador-inventario:1.0.0
+docker push josv0/procesador-inventario:latest
 ```
 
 ### Prueba de aceptación (desde el registro)
 
 ```bash
-docker rmi TU_USUARIO/procesador-inventario:1.0.0 TU_USUARIO/procesador-inventario:latest
+docker rmi josv0/procesador-inventario:1.0.0 josv0/procesador-inventario:latest
 docker run --rm \
   -v "$(pwd)/data/input:/data/input:ro" \
   -v "$(pwd)/data/output:/data/output" \
-  TU_USUARIO/procesador-inventario:1.0.0
+  josv0/procesador-inventario:1.0.0
 ```
 
 Docker vuelve a descargar la imagen desde Docker Hub y produce la misma salida.
 
 ### Evidencia
 
-- Enlace: https://hub.docker.com/r/TU_USUARIO/procesador-inventario/tags
+- Enlace: https://hub.docker.com/r/josv0/procesador-inventario/tags
 - Captura: ![Imagen publicada en Docker Hub](evidencias/dockerhub.png)
 
 ## Ejecutar sin Docker (opcional)
